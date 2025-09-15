@@ -2,38 +2,35 @@
 
 <h2>👨‍💻 Software Development Projects:</h2>
 
-
-- <b>Data Visialisation</b>
-  - [Image Analysis Middleware](https://github.com/joshmadakor1/4chan-Image-Analysis-Middleware-C964) <b><i>(Potentially NSFW)</b></i>
+- <b>Artificial Intelligence/Machine Learning</b>
+  - [Ransomware Proof of Concept (Encrypter)]()
 - <b>Operating Systems</b>
   - [Habit Tracker iOS mobile application using Flutter](https://github.com/marriammahmed/OS_FlutteriOSHabitTracker)
 - <b>Computer Networks</b>
   - [Client Server Spectator TicTacToe Game](https://github.com/marriammahmed/CN_Client_Server_Spectator_TicTacToe)
 - <b>Databases</b>
-  - [Package Delivery Application (Datastructures and Algorithms Demo)](https://github.com/joshmadakor1/Package-Delivery-Pathfinding-Algorithm)
-- <b>Data Visualization</b>
-  - [Ransomware Proof of Concept (Encrypter)](https://github.com/joshmadakor1/EncrypterPOC)
+  - [Relational DBMS for the CyberMACS Program Conference using PostgreSQL]()
 - <b>Embedded Systems</b>
-  - [Ransomware Proof of Concept (Encrypter)](https://github.com/joshmadakor1/EncrypterPOC)
-- <b>Cloud Computing</b>
-  - [Ransomware Proof of Concept (Encrypter)](https://github.com/joshmadakor1/EncrypterPOC)
-- <b>Artificial Intelligence/ Machine Learning</b>
-  - [Ransomware Proof of Concept (Encrypter)](https://github.com/joshmadakor1/EncrypterPOC)
+  - [Traffic Light Web Server for Pine ox64 using Buildroot,Apache,PHP and other]()
 - <b>Software Engineering </b>
-  - [Ransomware Proof of Concept (Encrypter)](https://github.com/joshmadakor1/EncrypterPOC)
-- <b>Intrto to Engineering and Computing</b>
-  - [Ransomware Proof of Concept (Encrypter)](https://github.com/joshmadakor1/EncrypterPOC)
+  - [Campus Event Management System Microservices Architecture]()
+- <b>Cloud Computing</b>
+  - [Microsoft Azure IoT-Cloud Solution Architecture Analysis for Charite Berlin Simulation & Training Centre]()
+- <b>Data Visualization</b>
+  - [Data visualization of AI and Global Health Index datasets for correlation analysis]()
+- <b>Intro to Engineering and Computing</b>
+  - [Building Cardboard Car carrying 75% filled water bottle harvesting energy from elastic bands]()
 
 <h2>📺 Practise & university coursework</h2>
 
 - <b>Data Structures and Algorithms Practice (AlgoExpert)</b>
-  - [Praciting DS & Algos in Python](https://github.com/joshmadakor1/Algorithms-Practice)- [A Day in the Life of a Cybersecurity Anayst]
-- <b>Computer systems (archictecture via assembly)</b>
-  - [Praciting DS & Algos in Python](https://github.com/joshmadakor1/Algorithms-Practice)
+  - [Algorithms and Structures:]()
+- <b>Computer systems (computer archictecture via assembly)</b>
+  - [Low-Level Programming using assembly:]()
 - <b>Digital systems </b>
-  - [Praciting DS & Algos in Python](https://github.com/joshmadakor1/Algorithms-Practice)
+  - [Hardware digital boards:]()
 - <b>Programming I & II labs </b>
-  - [Praciting DS & Algos in Python](https://github.com/joshmadakor1/Algorithms-Practice)
+  - [Coding:]()
 
 <h2> 🤳 Connect with me:</h2>
 
