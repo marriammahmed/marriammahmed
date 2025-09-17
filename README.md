@@ -3,7 +3,7 @@
 <h2>👨‍💻 Software Development Projects:</h2>
 
 - <b>Artificial Intelligence/Machine Learning</b>
-  - [Ransomware Proof of Concept (Encrypter)]()
+  - [Implementation of various ML models](https://github.com/marriammahmed/AI-ML?tab=readme-ov-file#contents)
 - <b>Operating Systems</b>
   - [Habit Tracker iOS mobile application using Flutter](https://github.com/marriammahmed/OS_FlutteriOSHabitTracker)
 - <b>Computer Networks</b>
