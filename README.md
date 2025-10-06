@@ -15,7 +15,7 @@
 - <b>Software Engineering </b>
   - [Campus Event Management System Microservices Architecture](https://github.com/marriammahmed/SE_CampusEventManagementSystem)
 - <b>Cloud Computing</b>
-  - [Microsoft Azure IoT-Cloud Solution Architecture Analysis for Charite Berlin Simulation & Training Centre]()
+  - [Microsoft Azure IoT-Cloud Solution Architecture Analysis for Charite Berlin Simulation & Training Centre](https://github.com/marriammahmed/CC_BeSTCentreMSAzure)
 - <b>Data Visualization</b>
   - [Data visualization of AI and Global Health Index datasets for correlation analysis]()
 - <b>Intro to Engineering and Computing</b>
