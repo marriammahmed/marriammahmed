@@ -13,7 +13,7 @@
 - <b>Embedded Systems</b>
   - [Traffic Light Web Server for Pine ox64 using Buildroot,Apache,PHP and other](https://github.com/marriammahmed/ES_PineOX64TrafficLightWebserver)
 - <b>Software Engineering </b>
-  - [Campus Event Management System Microservices Architecture]()
+  - [Campus Event Management System Microservices Architecture](https://github.com/marriammahmed/SE_CampusEventManagementSystem)
 - <b>Cloud Computing</b>
   - [Microsoft Azure IoT-Cloud Solution Architecture Analysis for Charite Berlin Simulation & Training Centre]()
 - <b>Data Visualization</b>
