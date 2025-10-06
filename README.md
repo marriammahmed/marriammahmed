@@ -39,7 +39,7 @@
 
 
 
-[linkedin]: www.linkedin.com/in/mariam-a-175368282
+[linkedin]: (www.linkedin.com/in/mariam-a-175368282)
 
 <!--
 
