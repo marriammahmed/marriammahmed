@@ -27,7 +27,7 @@
 <h2>📺 Practise & university coursework</h2>
 
 - <b>Data Structures and Algorithms Practice (AlgoExpert)</b>
-  - [Algorithms and Structures:]()
+  - [Algorithms and Structures:](https://github.com/marriammahmed/DSA_DataStructuresAlgorithms/tree/main)
 - <b>Computer systems (computer archictecture via assembly)</b>
   - [Low-Level Programming using assembly:]()
 - <b>Digital systems </b>
