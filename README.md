@@ -1,7 +1,8 @@
 <h1>Hi, I'm Mariam! <br/><a href="https://github.com/mariammahmed">Programmer</a>, <a href="www.linkedin.com/in/mariam-a-175368282">Computer scientist</a>, <a href="www.linkedin.com/in/mariam-a-175368282">Cybersecurity professional</a></h1>
 
 <h2>👨‍💻 Computer Science Projects:</h2>
-
+- <b>Engineering Teammwork III: AI & Autonomous Systems</b>
+  - [Car Lane Detection pipeline](https://github.com/marriammahmed/AI-ML?tab=readme-ov-file#contents)
 - <b>Artificial Intelligence/Machine Learning</b>
   - [Implementation of various ML models](https://github.com/marriammahmed/AI-ML?tab=readme-ov-file#contents)
 - <b>Operating Systems</b>
