@@ -27,13 +27,15 @@
 <h2>📺 Practise & university coursework</h2>
 
 - <b>Data Structures and Algorithms Practice (AlgoExpert)</b>
-  - [Algorithms and Structures](https://github.com/marriammahmed/DSA_DataStructuresAlgorithms/tree/main)
+   [Algorithms and Structures](https://github.com/marriammahmed/DSA_DataStructuresAlgorithms/tree/main)
 - <b>Computer systems (computer archictecture via assembly)</b>
-  - [Low-Level Programming using assembly]()
+   [Low-Level Programming using assembly]()
 - <b>Digital systems </b>
-  - [Hardware digital boards]()
+   [Hardware digital boards]()
 - <b>Programming I & II labs </b>
-  - [Coding:](https://github.com/marriammahmed/Programming1and2/blob/main/README.md)
+  [Coding](https://github.com/marriammahmed/Programming1and2/blob/main/README.md)
+- <b>Handwritten university courses notes </b>
+  [Notes]()
 
 <h2> 🤳 Connect with me:</h2>
 
