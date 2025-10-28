@@ -17,8 +17,8 @@
 - <b>Cloud Computing</b>
   - [Microsoft Azure IoT-Cloud Solution Architecture Analysis for Charite Berlin Simulation & Training Centre](https://github.com/marriammahmed/CC_BeSTCentreMSAzure)
 - <b> Full Stack Web Development/ Data Visualization</b>
-  - [Data visualization of AI and Global Health Index datasets for correlation analysis](https://github.com/marriammahmed/DV_CorAnalysisAIandGlobalHealthIndex)
-  - [Data visualization of London Hurricane Coordinates(https://github.com/marriammahmed/DV_CorAnalysisAIandGlobalHealthIndex)
+  - [DV of AI and Global Health Index datasets for correlation analysis](https://github.com/marriammahmed/DV_CorAnalysisAIandGlobalHealthIndex)
+  - [DV of London Hurricane Coordinates](https://github.com/marriammahmed/DV_LondonHurricaneCoordinates)
 - <b>Intro to Engineering and Computing</b>
   - [Building Cardboard Car carrying 75% filled water bottle harvesting energy from elastic bands]()
 
