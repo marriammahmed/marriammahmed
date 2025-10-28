@@ -16,8 +16,9 @@
   - [Campus Event Management System Microservices Architecture](https://github.com/marriammahmed/SE_CampusEventManagementSystem)
 - <b>Cloud Computing</b>
   - [Microsoft Azure IoT-Cloud Solution Architecture Analysis for Charite Berlin Simulation & Training Centre](https://github.com/marriammahmed/CC_BeSTCentreMSAzure)
-- <b>Data Visualization</b>
-  - [Data visualization of AI and Global Health Index datasets for correlation analysis]()
+- <b> Full Stack Web Development/ Data Visualization</b>
+  - [Data visualization of AI and Global Health Index datasets for correlation analysis](https://github.com/marriammahmed/DV_CorAnalysisAIandGlobalHealthIndex)
+  - [Data visualization of London Hurricane Coordinates(https://github.com/marriammahmed/DV_CorAnalysisAIandGlobalHealthIndex)
 - <b>Intro to Engineering and Computing</b>
   - [Building Cardboard Car carrying 75% filled water bottle harvesting energy from elastic bands]()
 
