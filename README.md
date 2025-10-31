@@ -1,6 +1,6 @@
 <h1>Hi, I'm Mariam! <br/><a href="https://github.com/mariammahmed">Programmer</a>, <a href="www.linkedin.com/in/mariam-a-175368282">Computer scientist</a>, <a href="www.linkedin.com/in/mariam-a-175368282">Cybersecurity professional</a></h1>
 
-<h2>👨‍💻 Computer Science Projects:</h2>
+<h2>👨‍💻 Computer Science Projects</h2>
 
 - <b>Artificial Intelligence/Machine Learning</b>
   - [Implementation of various ML models](https://github.com/marriammahmed/AI-ML?tab=readme-ov-file#contents)
@@ -37,6 +37,10 @@
 - <b>Handwritten university courses notes </b>
   [Notes]()
 
+
+<h2>📺 About me</h2>
+- <b>My certifications:</b>
+(https://github.com/marriammahmed/certs/blob/main/README.md)
 <h2> 🤳 Connect with me:</h2>
 
 
