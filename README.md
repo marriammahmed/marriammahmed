@@ -28,7 +28,7 @@
 
 - <b>Data Structures and Algorithms Practice (AlgoExpert)</b>
    [Algorithms and Structures](https://github.com/marriammahmed/DSA_DataStructuresAlgorithms/tree/main)
-- <b>Computer systems (computer archictecture via assembly)</b>
+- <b>Computer systems (computer archictecture 8086/8088 Intel Chip)</b>
    [Low-Level Programming using assembly](https://github.com/marriammahmed/ICS_8086-8088IntelChip/blob/main/README.md)
 - <b>Digital systems </b>
    [Hardware digital boards]()
