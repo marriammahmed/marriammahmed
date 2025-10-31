@@ -38,7 +38,7 @@
 
 
 <h2>🧠 About me</h2>
-📜 <b>My Certifications:</b> <a href="https://github.com/marriammahmed/certs/blob/main/README.md">View Repository</a><br/>
+📜 <b>My Certifications:</b> <a href="https://github.com/marriammahmed/certs/tree/main">View Repository</a><br/>
 📝 <b>My Handwritten University Notes:</b> <a href="https://github.com/marriammahmed/UniCourseworkNotes/blob/main/README.md">View Repository</a>
 
 <h2> 🤳 Connect with me:</h2>
