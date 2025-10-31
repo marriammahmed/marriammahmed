@@ -39,7 +39,7 @@
 
 
 <h2>📺 About me</h2>
-- <b>My certifications:</b>
+ <b>My certifications:</b>
 (https://github.com/marriammahmed/certs/blob/main/README.md)
 <h2> 🤳 Connect with me:</h2>
 
