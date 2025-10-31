@@ -33,7 +33,7 @@
 - <b>Digital systems (+Hardware!) </b>
    [Hardware digital boards]()
 - <b>Programming I & II labs </b>
-  [Coding](https://github.com/marriammahmed/Programming1and2/blob/main/README.md)
+  [Coding](https://github.com/marriammahmed/Programming1and2)
 
 
 
