@@ -4,7 +4,7 @@
 
 - <b>Artificial Intelligence/Machine Learning</b>
   - [Implementation of various ML models](https://github.com/marriammahmed/AI-ML?tab=readme-ov-file#contents)
-- <b>Engineering Teammwork III: AI & Autonomous Systems</b>
+- <b>Engineering Teammwork III: AI & Autonomous Systems(Has Hardware!)</b>
   - [Car Lane Detection pipeline]()
 - <b>Operating Systems</b>
   - [Habit Tracker iOS mobile application using Flutter](https://github.com/marriammahmed/OS_FlutteriOSHabitTracker)
@@ -12,7 +12,7 @@
   - [Client Server Spectator TicTacToe Game](https://github.com/marriammahmed/CN_Client_Server_Spectator_TicTacToe)
 - <b>Databases</b>
   - [Relational DBMS for the CyberMACS Program Conference using PostgreSQL](https://github.com/marriammahmed/DB_PostgreSQL_RDMS_CyberMACS_Conference)
-- <b>Embedded Systems</b>
+- <b>Embedded Systems(Has Hardware!)</b>
   - [Traffic Light Web Server for Pine ox64 using Buildroot,Apache,PHP and other](https://github.com/marriammahmed/ES_PineOX64TrafficLightWebserver)
 - <b>Software Engineering </b>
   - [Campus Event Management System Microservices Architecture](https://github.com/marriammahmed/SE_CampusEventManagementSystem)
@@ -21,26 +21,27 @@
 - <b> Full Stack Web Development/ Data Visualization</b>
   - [DV of AI and Global Health Index datasets for correlation analysis](https://github.com/marriammahmed/DV_CorAnalysisAIandGlobalHealthIndex)
   - [DV of London Hurricane Coordinates](https://github.com/marriammahmed/DV_LondonHurricaneCoordinates)
-- <b>Intro to Engineering and Computing</b>
+- <b>Intro to Engineering and Computing(Has Hardware!)</b>
   - [Building Cardboard Car carrying 75% filled water bottle harvesting energy from elastic bands]()
 
 <h2>📺 Practise & university coursework</h2>
 
 - <b>Data Structures and Algorithms Practice (AlgoExpert)</b>
    [Algorithms and Structures](https://github.com/marriammahmed/DSA_DataStructuresAlgorithms/tree/main)
-- <b>Computer systems (computer archictecture 8086/8088 Intel Chip)</b>
+- <b>Computer Systems: Computer Archictecture 8086/8088 Intel Chip (Has Hardware!)</b>
    [Low-Level Programming using assembly](https://github.com/marriammahmed/ICS_8086-8088IntelChip/blob/main/README.md)
-- <b>Digital systems </b>
+- <b>Digital systems(Has Hardware!) </b>
    [Hardware digital boards]()
 - <b>Programming I & II labs </b>
   [Coding](https://github.com/marriammahmed/Programming1and2/blob/main/README.md)
-- <b>Handwritten university courses notes </b>
-  [Notes]()
+
 
 
 <h2>🧠 About me</h2>
  <b>My certifications:</b>
 (https://github.com/marriammahmed/certs/blob/main/README.md)
+<b>My handwritten university notes: </b>
+()
 <h2> 🤳 Connect with me:</h2>
 
 
