@@ -18,8 +18,7 @@
 - <b>Software Engineering </b>
   - [Campus Event Management System Microservices Architecture](https://github.com/marriammahmed/SE_CampusEventManagementSystem)
 - <b>Cybersecurity </b>
-  - [Cybersecurity in FinTech modell](https://github.com/marriammahmed/AI_MLFraudDetectionFinTechAlgo/blob/main/README.md)
-
+  - [Cybersecurity in FinTech](https://github.com/marriammahmed/AI_MLFraudDetectionFinTechAlgo/blob/main/README.md)
 - <b>Cloud Computing</b>
   - [Microsoft Azure IoT-Cloud Solution Architecture Analysis for Charite Berlin Simulation & Training Centre](https://github.com/marriammahmed/CC_BeSTCentreMSAzure)
 - <b> Full Stack Web Development/ Data Visualization</b>
