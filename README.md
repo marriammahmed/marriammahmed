@@ -17,7 +17,7 @@
   - [Traffic Light Web Server for Pine ox64 using Buildroot,Apache,PHP and other](https://github.com/marriammahmed/ES_PineOX64TrafficLightWebserver)
 - <b>Software Engineering </b>
   - [Campus Event Management System Microservices Architecture](https://github.com/marriammahmed/SE_CampusEventManagementSystem)
-- <b>Software Engineering </b>
+- <b>Cybersecurity </b>
   - [Cybersecurity in FinTech modell](https://github.com/marriammahmed/AI_MLFraudDetectionFinTechAlgo/blob/main/README.md)
 
 - <b>Cloud Computing</b>
