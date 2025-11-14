@@ -4,6 +4,7 @@
 
 - <b>Artificial Intelligence/Machine Learning</b>
   - [Implementation of various ML models](https://github.com/marriammahmed/AI-ML?tab=readme-ov-file#contents)
+  - [Fraud Detection ML model](https://github.com/marriammahmed/AI_MLFraudDetectionFinTechAlgo/blob/main/README.md)
 - <b>Engineering Teammwork III: AI & Autonomous Systems (+Hardware!)</b>
   - [Car Lane Detection pipeline]()
 - <b>Operating Systems</b>
@@ -16,6 +17,9 @@
   - [Traffic Light Web Server for Pine ox64 using Buildroot,Apache,PHP and other](https://github.com/marriammahmed/ES_PineOX64TrafficLightWebserver)
 - <b>Software Engineering </b>
   - [Campus Event Management System Microservices Architecture](https://github.com/marriammahmed/SE_CampusEventManagementSystem)
+- <b>Software Engineering </b>
+  - [Cybersecurity in FinTech modell](https://github.com/marriammahmed/AI_MLFraudDetectionFinTechAlgo/blob/main/README.md)
+
 - <b>Cloud Computing</b>
   - [Microsoft Azure IoT-Cloud Solution Architecture Analysis for Charite Berlin Simulation & Training Centre](https://github.com/marriammahmed/CC_BeSTCentreMSAzure)
 - <b> Full Stack Web Development/ Data Visualization</b>
