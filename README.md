@@ -17,8 +17,9 @@
   - [Traffic Light Web Server for Pine ox64 using Buildroot,Apache,PHP and other](https://github.com/marriammahmed/ES_PineOX64TrafficLightWebserver)
 - <b>Software Engineering </b>
   - [Campus Event Management System Microservices Architecture](https://github.com/marriammahmed/SE_CampusEventManagementSystem)
-- <b>Cybersecurity </b>
-  - [Cybersecurity in FinTech](https://github.com/marriammahmed/AI_MLFraudDetectionFinTechAlgo/blob/main/README.md)
+- <b>Cybersecurity </b>https:
+  - [Cybersecurity Fraud Detection in FinTech](https://github.com/marriammahmed/AI_MLFraudDetectionFinTechAlgo/blob/main/README.md)
+  - [Digital Signal Processing: 16-QAM Demodulation & Physical Layer Security](//github.com/marriammahmed/CS_16QAMDemodulationAndDescramblingSignalProcessing)
 - <b>Cloud Computing</b>
   - [Microsoft Azure IoT-Cloud Solution Architecture Analysis for Charite Berlin Simulation & Training Centre](https://github.com/marriammahmed/CC_BeSTCentreMSAzure)
 - <b> Full Stack Web Development/ Data Visualization</b>
