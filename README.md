@@ -6,7 +6,7 @@
   - [Implementation of various ML models](https://github.com/marriammahmed/AI-ML?tab=readme-ov-file#contents)
   - [Fraud Detection ML model](https://github.com/marriammahmed/AI_MLFraudDetectionFinTechAlgo/blob/main/README.md)
 - <b>Engineering Teammwork III: AI & Autonomous Systems (+Hardware!)</b>
-  - [Car Lane Detection pipeline]()
+  - [Car Lane Detection pipeline](https://github.com/marriammahmed/AS_CarLaneDetection/tree/main)
 - <b>Operating Systems</b>
   - [Habit Tracker iOS mobile application using Flutter](https://github.com/marriammahmed/OS_FlutteriOSHabitTracker)
 - <b>Computer Networks</b>
