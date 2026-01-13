@@ -2,11 +2,11 @@
 
 <h2>👨‍💻 Computer Science Projects</h2>
 
-- <b>Artificial Intelligence/Machine Learning</b>
+- <b>Artificial Intelligence and Machine Learning</b>
   - [Implementation of various ML models](https://github.com/marriammahmed/AI-ML?tab=readme-ov-file#contents)
-  - [Fraud Detection ML model](https://github.com/marriammahmed/AI_MLFraudDetectionFinTechAlgo/blob/main/README.md)
+  - [Transaction in FinTech Fraud Detection model](https://github.com/marriammahmed/AI_MLFraudDetectionFinTechAlgo/blob/main/README.md)
 - <b>Engineering Teammwork III: AI & Autonomous Systems (+Hardware!)</b>
-  - [Car Lane Detection pipeline](https://github.com/marriammahmed/AS_CarLaneDetection/tree/main)
+  - [Building and programming Freenove Autonomous Car & Lane Detection pipeline](https://github.com/marriammahmed/AS_CarLaneDetection/tree/main)
 - <b>Operating Systems</b>
   - [Habit Tracker iOS mobile application using Flutter](https://github.com/marriammahmed/OS_FlutteriOSHabitTracker)
 - <b>Computer Networks</b>
@@ -17,18 +17,16 @@
   - [Traffic Light Web Server for Pine ox64 using Buildroot,Apache,PHP and other](https://github.com/marriammahmed/ES_PineOX64TrafficLightWebserver)
 - <b>Software Engineering </b>
   - [Campus Event Management System Microservices Architecture](https://github.com/marriammahmed/SE_CampusEventManagementSystem)
-- <b>Cybersecurity </b>https:
+- <b>Cybersecurity </b>:
   - [Cybersecurity Fraud Detection in FinTech](https://github.com/marriammahmed/AI_MLFraudDetectionFinTechAlgo/blob/main/README.md)
-  - [Digital Signal Processing: 16-QAM Demodulation & Physical Layer Security](//github.com/marriammahmed/CS_16QAMDemodulationAndDescramblingSignalProcessing)
+  - [Physical Layer Security & Digital Signal Processing: 16-QAM Demodulation](//github.com/marriammahmed/CS_16QAMDemodulationAndDescramblingSignalProcessing)
 - <b>Computer Vision: Imaging Technologies and Processing</b>
-  - [Moon Enhancement algorithm in Astrophysics and Medical Image Processing in Radiology](https://github.com/marriammahmed/IT_MoonEnhancementandMedicalImaging)
+  - [Moon Enhancement in Astrophysics & Medical Image Processing in Radiology](https://github.com/marriammahmed/IT_MoonEnhancementandMedicalImaging)
 - <b>Cloud Computing</b>
   - [Microsoft Azure IoT-Cloud Solution Architecture Analysis for Charite Berlin Simulation & Training Centre](https://github.com/marriammahmed/CC_BeSTCentreMSAzure)
-- <b> Full Stack Web Development/ Data Visualization</b>
+- <b> Web Computing & Full Stack Web Development/ Data Visualization</b>
   - [DV of AI and Global Health Index datasets for correlation analysis](https://github.com/marriammahmed/DV_CorAnalysisAIandGlobalHealthIndex)
   - [DV of London Hurricane Coordinates](https://github.com/marriammahmed/DV_LondonHurricaneCoordinates)
-- <b>Intro to Engineering and Computing (+Hardware!)</b>
-  - [Building Cardboard Car carrying 75% filled water bottle harvesting energy from elastic bands]()
 
 <h2>📺 Practise & university coursework</h2>
 
