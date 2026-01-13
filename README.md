@@ -22,6 +22,7 @@
   - [Physical Layer Security & Digital Signal Processing: 16-QAM Demodulation](//github.com/marriammahmed/CS_16QAMDemodulationAndDescramblingSignalProcessing)
 - <b>Computer Vision: Imaging Technologies and Processing</b>
   - [Moon Enhancement in Astrophysics & Medical Image Processing in Radiology](https://github.com/marriammahmed/IT_MoonEnhancementandMedicalImaging)
+  - [Computer Vision & Imaging Technologies Labs](https://github.com/marriammahmed/ComputerVisionLabs/blob/main/README.md)
 - <b>Cloud Computing</b>
   - [Microsoft Azure IoT-Cloud Solution Architecture Analysis for Charite Berlin Simulation & Training Centre](https://github.com/marriammahmed/CC_BeSTCentreMSAzure)
 - <b> Web Computing & Full Stack Web Development/ Data Visualization</b>
