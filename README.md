@@ -8,7 +8,7 @@
 - <b>Engineering Teammwork III: AI & Autonomous Systems (+Hardware!)</b>
   - [Building and programming Freenove Autonomous Car & Lane Detection pipeline](https://github.com/marriammahmed/AS_CarLaneDetection/tree/main)
 - <b>DevOps</b>
-  - [CPU Management System]()
+  - [CPU Management System](https://github.com/marriammahmed/DevOps_CPUManagementSystem/blob/main/README.md)
 - <b>Operating Systems</b>
   - [Habit Tracker iOS mobile application using Flutter](https://github.com/marriammahmed/OS_FlutteriOSHabitTracker)
 - <b>Computer Networks</b>
