@@ -4,15 +4,15 @@
 
 - <b>Artificial Intelligence and Machine Learning</b>
   - [Implementation of various ML models](https://github.com/marriammahmed/AI-ML?tab=readme-ov-file#contents)
-  - [Transaction in FinTech Fraud Detection model](https://github.com/marriammahmed/AI_MLFraudDetectionFinTechAlgo/blob/main/README.md)
+  - [Transaction in FinTech Fraud Detection model](https://github.com/marriammahmed/AI_MLFraudDetectionFinTechAlgo/tree/main)
 - <b>Engineering Teammwork III: AI & Autonomous Systems (+Hardware!)</b>
   - [Building and programming Freenove Autonomous Car & Lane Detection pipeline](https://github.com/marriammahmed/AS_CarLaneDetection/tree/main)
 - <b>DevOps</b>
   - [CPU Management System](https://github.com/marriammahmed/DevOps_CPUManagementSystem/tree/main)
 - <b>Operating Systems</b>
-  - [Habit Tracker iOS mobile application using Flutter](https://github.com/marriammahmed/OS_FlutteriOSHabitTracker)
+  - [Habit Tracker iOS mobile application using Flutter](https://github.com/marriammahmed/OS_FlutteriOSHabitTracker/tree/main)
 - <b>Computer Networks</b>
-  - [Client Server Spectator TicTacToe Game](https://github.com/marriammahmed/CN_Client_Server_Spectator_TicTacToe)
+  - [Client Server Spectator TicTacToe Game](https://github.com/marriammahmed/CN_Client_Server_Spectator_TicTacToe/tree/main)
 - <b>Databases</b>
   - [Relational DBMS for the CyberMACS Program Conference using PostgreSQL](https://github.com/marriammahmed/DB_PostgreSQL_RDMS_CyberMACS_Conference)
 - <b>Embedded Systems (+Hardware!)</b>
