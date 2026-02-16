@@ -22,6 +22,10 @@
 - <b>Cybersecurity </b>:
   - [Cybersecurity Fraud Detection in FinTech](https://github.com/marriammahmed/AI_MLFraudDetectionFinTechAlgo/blob/main/README.md)
   - [Physical Layer Security & Digital Signal Processing: 16-QAM Demodulation](//github.com/marriammahmed/CS_16QAMDemodulationAndDescramblingSignalProcessing)
+- <b>IoT (+Hardware!)</b>:
+  - [Heat Risk & Climate Adaptive Safety System](https://github.com/marriammahmed/IoT_HRCAS)
+- <b>Applied Computer System Lab-- RAG System </b>:
+  - [Ollama Langchain RAG System from scratch](https://github.com/marriammahmed/ACS_RAGSystem)
 - <b>Computer Vision: Imaging Technologies and Processing</b>
   - [Moon Enhancement in Astrophysics & Medical Image Processing in Radiology](https://github.com/marriammahmed/IT_MoonEnhancementandMedicalImaging)
   - [Computer Vision & Imaging Technologies Labs](https://github.com/marriammahmed/ComputerVisionLabs/blob/main/README.md)
