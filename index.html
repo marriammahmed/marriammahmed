@@ -1,1 +1,783 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mariam Ahmed</title>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Crimson+Pro:ital,wght@0,300;0,400;1,300;1,400&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet"/>
+  <style>
+    :root {
+      --ink:    #09090b;
+      --deep:   #111116;
+      --burg:   #7a1e30;
+      --burg-l: #a02840;
+      --gold:   #c9a84c;
+      --white:  #eeebe4;
+      --mist:   #7a7468;
+      --rule:   rgba(238,235,228,0.07);
+      --rule2:  rgba(238,235,228,0.12);
+    }
 
+    *, *::before, *::after { margin:0; padding:0; box-sizing:border-box; }
+    html { scroll-behavior:smooth; }
+
+    body {
+      font-family: 'Crimson Pro', Georgia, serif;
+      background: var(--ink);
+      color: var(--white);
+      overflow-x: hidden;
+    }
+
+    /* ── NAV ── */
+    nav {
+      position: fixed; top:0; left:0; right:0; z-index:100;
+      display: flex; justify-content:space-between; align-items:center;
+      padding: 1.3rem 4rem;
+      background: rgba(9,9,11,0.92);
+      backdrop-filter: blur(16px);
+      border-bottom: 1px solid var(--rule);
+    }
+    .logo {
+      font-family:'JetBrains Mono', monospace;
+      font-size:.68rem; letter-spacing:.18em; text-transform:uppercase;
+      color: var(--mist);
+    }
+    .logo b { color: var(--white); font-weight:500; }
+    .nav-links { display:flex; gap:2.5rem; list-style:none; }
+    .nav-links a {
+      font-family:'JetBrains Mono', monospace;
+      font-size:.62rem; letter-spacing:.18em; text-transform:uppercase;
+      color: var(--mist); text-decoration:none; transition:color .2s;
+    }
+    .nav-links a:hover { color: var(--white); }
+
+    /* ── HERO ── */
+    .hero {
+      min-height: 100vh;
+      display: flex; flex-direction:column; justify-content:center;
+      padding: 0 4rem;
+      border-bottom: 1px solid var(--rule);
+      position: relative;
+      overflow: hidden;
+    }
+
+    /* Subtle vertical burgundy accent */
+    .hero::before {
+      content:'';
+      position:absolute;
+      top:15%; bottom:15%; left:4rem;
+      width:2px;
+      background:linear-gradient(180deg, transparent, var(--burg) 40%, var(--burg) 60%, transparent);
+      opacity:.5;
+    }
+
+    .hero-content { padding-left:2.2rem; position:relative; z-index:1; }
+
+    .hero-eyebrow {
+      font-family:'JetBrains Mono', monospace;
+      font-size:.66rem; letter-spacing:.22em; text-transform:uppercase;
+      color: var(--burg-l);
+      margin-bottom:1.6rem;
+    }
+
+    /* NAME — the centrepiece */
+    .hero-name {
+      font-family:'Bebas Neue', sans-serif;
+      font-size: clamp(6rem, 13vw, 13rem);
+      line-height:.88; letter-spacing:.03em;
+      color: var(--white);
+      margin-bottom:1.6rem;
+    }
+
+    /* Identity line below name */
+    .hero-identity {
+      display:flex; align-items:center; gap:1.4rem;
+      margin-bottom:2rem;
+    }
+    .hero-identity .role {
+      font-family:'Crimson Pro', serif;
+      font-style:italic; font-weight:300;
+      font-size:1.5rem; letter-spacing:.06em;
+      color: var(--mist);
+    }
+    .hero-identity .sep {
+      width:1px; height:1.2rem;
+      background:var(--burg-l); opacity:.6;
+    }
+    .hero-identity .domain {
+      font-family:'JetBrains Mono', monospace;
+      font-size:.65rem; letter-spacing:.16em; text-transform:uppercase;
+      color: var(--burg-l);
+    }
+
+    .hero-desc {
+      font-size:1.18rem; font-weight:300; line-height:1.85;
+      color: rgba(238,235,228,.55);
+      max-width:580px;
+      margin-bottom:2.5rem;
+    }
+    .hero-desc strong { color:var(--white); font-weight:400; }
+
+    .hero-pills {
+      display:flex; flex-wrap:wrap; gap:.55rem;
+      margin-bottom:2.8rem;
+    }
+    .pill {
+      font-family:'JetBrains Mono', monospace;
+      font-size:.57rem; letter-spacing:.12em; text-transform:uppercase;
+      padding:.32rem .88rem;
+      border:1px solid var(--rule2);
+      color: var(--mist);
+      transition:all .2s;
+    }
+    .pill.hot {
+      border-color: var(--burg);
+      color: var(--burg-l);
+      background: rgba(122,30,48,.1);
+    }
+
+    .hero-links { display:flex; gap:1.1rem; }
+    .hero-links a {
+      font-family:'JetBrains Mono', monospace;
+      font-size:.62rem; letter-spacing:.15em; text-transform:uppercase;
+      padding:.7rem 1.5rem; text-decoration:none; transition:all .25s;
+    }
+    .btn-fill { background:var(--burg); color:var(--white); border:1px solid var(--burg); }
+    .btn-fill:hover { background:var(--burg-l); }
+    .btn-line { background:transparent; color:var(--mist); border:1px solid var(--rule2); }
+    .btn-line:hover { color:var(--white); border-color:var(--rule2); }
+
+    /* ── SECTION SHELL ── */
+    .s { padding:6rem 4rem; border-bottom:1px solid var(--rule); }
+    .s-alt { background:var(--deep); }
+
+    .s-head {
+      display:flex; align-items:baseline; gap:1.2rem;
+      margin-bottom:3.2rem;
+      padding-bottom:1rem;
+      border-bottom:1px solid var(--rule);
+    }
+    .s-num {
+      font-family:'JetBrains Mono', monospace;
+      font-size:.58rem; letter-spacing:.15em; color:var(--burg-l);
+    }
+    h2 {
+      font-family:'Bebas Neue', sans-serif;
+      font-size:clamp(2rem,4vw,3.2rem);
+      letter-spacing:.06em; color:var(--white); line-height:1;
+    }
+
+    /* ── ABOUT ── */
+    .about-grid {
+      display:grid; grid-template-columns:1.3fr 1fr; gap:5rem; align-items:start;
+    }
+    .about-text p {
+      font-size:1.13rem; font-weight:300; line-height:1.85;
+      color:rgba(238,235,228,.62); margin-bottom:1.2rem;
+    }
+    .about-text p strong { color:var(--white); font-weight:400; }
+    .about-text em { color:var(--burg-l); font-style:italic; }
+
+    .fact-list { display:flex; flex-direction:column; }
+    .fact {
+      display:flex; justify-content:space-between; align-items:baseline;
+      padding:1.1rem 0; border-bottom:1px solid var(--rule);
+    }
+    .fact:first-child { border-top:1px solid var(--rule); }
+    .fact-k {
+      font-family:'JetBrains Mono', monospace;
+      font-size:.6rem; letter-spacing:.14em; text-transform:uppercase; color:var(--mist);
+    }
+    .fact-v {
+      font-family:'Crimson Pro', serif;
+      font-size:1.02rem; color:var(--white); text-align:right; max-width:58%;
+    }
+    .fact-v.accent {
+      font-family:'Bebas Neue';
+      font-size:1.5rem; letter-spacing:.05em; color:var(--gold);
+      line-height:1;
+    }
+    .fact-v.sub {
+      display:flex; flex-direction:column; align-items:flex-end; gap:.1rem;
+    }
+    .fact-v.sub span:first-child { font-family:'Bebas Neue'; font-size:1.5rem; color:var(--gold); letter-spacing:.05em; line-height:1; }
+    .fact-v.sub span:last-child { font-family:'JetBrains Mono'; font-size:.55rem; letter-spacing:.12em; text-transform:uppercase; color:var(--mist); }
+
+    /* ── PROJECTS ── */
+    .proj-group-label {
+      font-family:'JetBrains Mono', monospace;
+      font-size:.58rem; letter-spacing:.2em; text-transform:uppercase;
+      color:var(--burg-l); padding:.6rem 0;
+      border-top:1px solid var(--rule); margin-top:.4rem;
+    }
+    .proj-group-label:first-of-type { border-top:none; margin-top:0; }
+
+    .proj-row {
+      display:grid; grid-template-columns:1fr auto;
+      gap:2rem; align-items:center;
+      padding:1.2rem 0; border-bottom:1px solid var(--rule);
+      text-decoration:none; color:inherit;
+      transition:padding-left .3s;
+    }
+    .proj-row:hover { padding-left:.9rem; }
+    .proj-row:hover .proj-title { color:var(--white); }
+    .proj-row:hover .proj-arr { color:var(--burg-l); }
+
+    .proj-title {
+      font-family:'Crimson Pro', serif;
+      font-size:1.18rem; font-weight:400;
+      color:rgba(238,235,228,.78);
+      transition:color .25s; margin-bottom:.18rem;
+    }
+    .proj-sub {
+      font-family:'JetBrains Mono', monospace;
+      font-size:.56rem; letter-spacing:.1em; text-transform:uppercase; color:var(--mist);
+    }
+    .proj-arr { color:var(--rule2); font-size:.95rem; transition:color .25s; flex-shrink:0; }
+
+    /* ── SKILLS ── */
+    .skills-grid {
+      display:grid; grid-template-columns:repeat(3,1fr);
+      gap:1px; background:var(--rule); border:1px solid var(--rule);
+    }
+    .skill-card {
+      background:var(--ink); padding:2rem 1.8rem;
+      transition:background .3s; position:relative; overflow:hidden;
+    }
+    .s-alt .skill-card { background:var(--deep); }
+    .skill-card:hover { background:#13131a; }
+    .skill-card::before {
+      content:''; position:absolute; top:0; left:0; right:0; height:2px;
+      background:linear-gradient(90deg,var(--burg),transparent);
+      transform:scaleX(0); transform-origin:left; transition:transform .4s;
+    }
+    .skill-card:hover::before { transform:scaleX(1); }
+    .skill-name {
+      font-family:'Bebas Neue', sans-serif;
+      font-size:1.25rem; letter-spacing:.06em; color:var(--white); margin-bottom:.6rem;
+    }
+    .skill-tools {
+      font-family:'JetBrains Mono', monospace;
+      font-size:.58rem; letter-spacing:.08em; line-height:1.95; color:var(--mist);
+    }
+
+    /* ── EXPERIENCE ── */
+    .exp-list { display:flex; flex-direction:column; gap:2.8rem; }
+    .exp-item { display:grid; grid-template-columns:190px 1fr; gap:3rem; }
+    .exp-meta {
+      font-family:'JetBrains Mono', monospace;
+      font-size:.6rem; letter-spacing:.1em; text-transform:uppercase;
+      color:var(--mist); line-height:2; padding-top:.1rem;
+    }
+    .exp-meta b { color:var(--burg-l); display:block; margin-bottom:.3rem; font-weight:500; }
+    .exp-role {
+      font-family:'Bebas Neue', sans-serif;
+      font-size:1.45rem; letter-spacing:.05em; color:var(--white); margin-bottom:.2rem;
+    }
+    .exp-org {
+      font-size:.98rem; font-style:italic; font-weight:300; color:var(--mist); margin-bottom:.8rem;
+    }
+    .exp-bullets { list-style:none; display:flex; flex-direction:column; gap:.4rem; }
+    .exp-bullets li {
+      font-size:.98rem; font-weight:300; line-height:1.7;
+      color:rgba(238,235,228,.58); padding-left:1.2rem; position:relative;
+    }
+    .exp-bullets li::before { content:'—'; position:absolute; left:0; color:var(--burg-l); font-size:.8rem; }
+
+    /* ── CERTIFICATIONS ── */
+    .cert-grid {
+      display:grid; grid-template-columns:repeat(2,1fr);
+      gap:1px; background:var(--rule); border:1px solid var(--rule);
+    }
+    .cert-item {
+      background:var(--ink); padding:1.3rem 1.7rem;
+      font-size:.95rem; font-weight:300; line-height:1.55;
+      color:rgba(238,235,228,.62);
+      border-left:2px solid transparent;
+      transition:border-color .25s, background .25s;
+    }
+    .cert-item:hover { border-left-color:var(--burg-l); background:var(--deep); }
+
+    /* ── CONTACT ── */
+    .contact-grid { display:grid; grid-template-columns:1fr 1fr; gap:5rem; align-items:start; }
+    .contact-intro p {
+      font-size:1.12rem; font-weight:300; line-height:1.85;
+      color:rgba(238,235,228,.55); margin-bottom:1rem;
+    }
+    .contact-intro strong { color:var(--white); font-weight:400; }
+
+    .contact-links { display:flex; flex-direction:column; }
+    .c-link {
+      display:flex; justify-content:space-between; align-items:center;
+      padding:1.3rem 0; border-bottom:1px solid var(--rule);
+      text-decoration:none; color:inherit; transition:padding-left .3s;
+    }
+    .c-link:first-child { border-top:1px solid var(--rule); }
+    .c-link:hover { padding-left:.8rem; }
+    .c-link:hover .c-label { color:var(--white); }
+    .c-link:hover .c-arr { color:var(--burg-l); }
+    .c-type {
+      font-family:'JetBrains Mono', monospace;
+      font-size:.56rem; letter-spacing:.16em; text-transform:uppercase; color:var(--burg-l); margin-bottom:.2rem;
+    }
+    .c-label {
+      font-family:'Bebas Neue', sans-serif;
+      font-size:1.75rem; letter-spacing:.05em; color:var(--mist); transition:color .25s;
+    }
+    .c-arr { color:var(--rule2); font-size:1.1rem; transition:color .25s; }
+
+    /* ── FOOTER ── */
+    footer {
+      padding:1.6rem 4rem;
+      display:flex; justify-content:space-between; align-items:center;
+      border-top:1px solid var(--rule);
+    }
+    footer p {
+      font-family:'JetBrains Mono', monospace;
+      font-size:.57rem; letter-spacing:.14em; text-transform:uppercase;
+      color:rgba(122,116,104,.35);
+    }
+    footer span { color:var(--burg-l); }
+
+    /* ── ANIMATIONS ── */
+    @keyframes fadeUp {
+      from{opacity:0;transform:translateY(16px);}
+      to{opacity:1;transform:translateY(0);}
+    }
+    .hero-eyebrow  { animation:fadeUp .6s .05s both; }
+    .hero-name     { animation:fadeUp .7s .15s both; }
+    .hero-identity { animation:fadeUp .6s .28s both; }
+    .hero-desc     { animation:fadeUp .6s .38s both; }
+    .hero-pills    { animation:fadeUp .6s .48s both; }
+    .hero-links    { animation:fadeUp .6s .58s both; }
+
+    /* ── RESPONSIVE ── */
+    @media(max-width:860px){
+      nav { padding:1.1rem 1.8rem; }
+      .nav-links li:nth-child(n+4) { display:none; }
+      .hero, .s { padding-left:1.8rem; padding-right:1.8rem; }
+      .hero::before { left:1.8rem; }
+      .hero-content { padding-left:1.2rem; }
+      .hero-name { font-size:clamp(4.5rem,17vw,7rem); }
+      .about-grid { grid-template-columns:1fr; gap:2.5rem; }
+      .exp-item { grid-template-columns:1fr; gap:.5rem; }
+      .skills-grid { grid-template-columns:1fr 1fr; }
+      .cert-grid { grid-template-columns:1fr; }
+      .contact-grid { grid-template-columns:1fr; gap:2.5rem; }
+      footer { flex-direction:column; gap:.5rem; text-align:center; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <div class="logo">// <b>Mariam Ahmed</b></div>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-content">
+    <div class="hero-eyebrow">Computer Scientist · Berlin, Germany</div>
+
+    <h1 class="hero-name">MARIAM<br/>AHMED</h1>
+
+    <div class="hero-identity">
+      <span class="role">Breaker & Builder</span>
+      <span class="sep"></span>
+      <span class="domain">Cybersecurity · Embedded · Robotics · Artificial Intelligence · DevOps</span>
+    </div>
+
+    <p class="hero-desc">
+      I take systems apart to understand them — then build them better.
+      From low-level hardware and assembly to machine learning pipelines and cloud infrastructure,
+      I go wherever the <strong>hardest problems live.</strong>
+      Always curious. Always improving.
+    </p>
+
+    <div class="hero-pills">
+      <span class="pill hot">Cybersecurity</span>
+      <span class="pill hot">Embedded Systems</span>
+      <span class="pill hot">Computer Architecture</span>
+      <span class="pill hot">Robotics</span>
+      <span class="pill hot">Artificial Intelligence & Machine Learning</span>
+      <span class="pill hot">DevOps</span>
+      <span class="pill">Cloud Computing</span>
+      <span class="pill">Computer Networks</span>
+    </div>
+
+    <div class="hero-links">
+      <a href="#projects" class="btn-fill">View Projects</a>
+      <a href="https://github.com/marriammahmed" target="_blank" class="btn-line">GitHub ↗</a>
+      <a href="https://www.linkedin.com/in/mariam-a-175368282" target="_blank" class="btn-line">LinkedIn ↗</a>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="s s-alt" id="about">
+  <div class="s-head">
+    <span class="s-num">01</span>
+    <h2>About</h2>
+  </div>
+  <div class="about-grid">
+    <div class="about-text">
+      <p>
+        I'm a Computer Science student at <strong>SRH University of Applied Sciences, Berlin</strong> —
+        building across the full depth of the field, from bare-metal hardware to neural networks.
+      </p>
+      <p>
+        My core interests are <em>cybersecurity, embedded systems and computer architecture, and robotics</em> —
+        disciplines where the gap between theory and reality is razor-thin and mistakes are obvious.
+        I'm drawn to that. I also work in <em>Artificial Intelligence and Machine Learning, DevOps,</em>
+        and anything else that pushes what a computer can do.
+      </p>
+      <p>
+        Outside of projects, I founded <strong>Google Developer Groups on Campus Berlin</strong> — 
+        building a technical community from the ground up, 
+        connecting students with engineers and real industry problems.
+      </p>
+    </div>
+    <div class="fact-list">
+      <div class="fact">
+        <span class="fact-k">Location</span>
+        <span class="fact-v">Berlin, Germany</span>
+      </div>
+      <div class="fact">
+        <span class="fact-k">Degree</span>
+        <span class="fact-v">B.Sc. Computer Science</span>
+      </div>
+      <div class="fact">
+        <span class="fact-k">GPA</span>
+        <span class="fact-v sub">
+          <span>1.5 <small style="font-size:.6em;color:var(--mist);font-family:'JetBrains Mono'">DE</small></span>
+          <span>≈ 3.9 / 4.0 US</span>
+        </span>
+      </div>
+      <div class="fact">
+        <span class="fact-k">Languages</span>
+        <span class="fact-v">EN · AR · DE (B2) · FR · TR</span>
+      </div>
+      <div class="fact">
+        <span class="fact-k">Projects</span>
+        <span class="fact-v accent">16+</span>
+      </div>
+      <div class="fact">
+        <span class="fact-k">Certifications</span>
+        <span class="fact-v">CISCO · ISC2 · AWS · Azure · GCP</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section class="s" id="projects">
+  <div class="s-head">
+    <span class="s-num">02</span>
+    <h2>Projects</h2>
+  </div>
+
+  <div class="proj-group-label">Cybersecurity</div>
+
+  <a class="proj-row" href="https://github.com/marriammahmed/AI_MLFraudDetectionFinTechAlgo" target="_blank">
+    <div>
+      <div class="proj-title">FinTech Fraud Detection — Cybersecurity & Artificial Intelligence</div>
+      <div class="proj-sub">Python · Scikit-Learn · TensorFlow · Financial Security</div>
+    </div>
+    <span class="proj-arr">↗</span>
+  </a>
+  <a class="proj-row" href="https://github.com/marriammahmed/CS_16QAMDemodulationAndDescramblingSignalProcessing" target="_blank">
+    <div>
+      <div class="proj-title">Physical Layer Security — 16-QAM Demodulation & Signal Processing</div>
+      <div class="proj-sub">Digital Signal Processing · MATLAB · Physical Layer Security</div>
+    </div>
+    <span class="proj-arr">↗</span>
+  </a>
+
+  <div class="proj-group-label">Embedded Systems & Computer Architecture</div>
+
+  <a class="proj-row" href="https://github.com/marriammahmed/ES_PineOX64TrafficLightWebserver" target="_blank">
+    <div>
+      <div class="proj-title">Traffic Light Web Server — Pine ox64</div>
+      <div class="proj-sub">Buildroot · Apache · PHP · Embedded Linux · Hardware</div>
+    </div>
+    <span class="proj-arr">↗</span>
+  </a>
+  <a class="proj-row" href="https://github.com/marriammahmed/ICS_8086-8088IntelChip" target="_blank">
+    <div>
+      <div class="proj-title">Low-Level Programming — 8086 / 8088 Intel Architecture</div>
+      <div class="proj-sub">Assembly · Computer Architecture · Hardware</div>
+    </div>
+    <span class="proj-arr">↗</span>
+  </a>
+  <a class="proj-row" href="https://github.com/marriammahmed/IoT_HRCAS" target="_blank">
+    <div>
+      <div class="proj-title">Heat Risk & Climate Adaptive Safety System — IoT</div>
+      <div class="proj-sub">IoT · Sensors · Microcontrollers · Hardware Integration</div>
+    </div>
+    <span class="proj-arr">↗</span>
+  </a>
+
+  <div class="proj-group-label">Robotics & Autonomous Systems</div>
+
+  <a class="proj-row" href="https://github.com/marriammahmed/AS_CarLaneDetection" target="_blank">
+    <div>
+      <div class="proj-title">Autonomous Car & Lane Detection Pipeline — Freenove</div>
+      <div class="proj-sub">Python · Computer Vision · Robotics · Hardware</div>
+    </div>
+    <span class="proj-arr">↗</span>
+  </a>
+
+  <div class="proj-group-label">Artificial Intelligence & Machine Learning</div>
+
+  <a class="proj-row" href="https://github.com/marriammahmed/AI-ML" target="_blank">
+    <div>
+      <div class="proj-title">Machine Learning Models — Classification, Regression, Clustering, Neural Networks</div>
+      <div class="proj-sub">Python · Scikit-Learn · TensorFlow · NumPy · Pandas</div>
+    </div>
+    <span class="proj-arr">↗</span>
+  </a>
+  <a class="proj-row" href="https://github.com/marriammahmed/ACS_RAGSystem" target="_blank">
+    <div>
+      <div class="proj-title">RAG System from Scratch — Ollama + LangChain</div>
+      <div class="proj-sub">Python · LangChain · Ollama · Large Language Models</div>
+    </div>
+    <span class="proj-arr">↗</span>
+  </a>
+  <a class="proj-row" href="https://github.com/marriammahmed/IT_MoonEnhancementandMedicalImaging" target="_blank">
+    <div>
+      <div class="proj-title">Moon Enhancement & Medical Image Processing</div>
+      <div class="proj-sub">Computer Vision · Astrophysics · Radiology · OpenCV</div>
+    </div>
+    <span class="proj-arr">↗</span>
+  </a>
+
+  <div class="proj-group-label">DevOps & Systems</div>
+
+  <a class="proj-row" href="https://github.com/marriammahmed/DevOps_CPUManagementSystem" target="_blank">
+    <div>
+      <div class="proj-title">CPU Management System</div>
+      <div class="proj-sub">DevOps · Linux · Bash · System Monitoring</div>
+    </div>
+    <span class="proj-arr">↗</span>
+  </a>
+  <a class="proj-row" href="https://github.com/marriammahmed/SE_CampusEventManagementSystem" target="_blank">
+    <div>
+      <div class="proj-title">Campus Event Management — Microservices Architecture</div>
+      <div class="proj-sub">Docker · Microservices · Software Engineering · Agile</div>
+    </div>
+    <span class="proj-arr">↗</span>
+  </a>
+
+  <div class="proj-group-label">Cloud, Networks & Databases</div>
+
+  <a class="proj-row" href="https://github.com/marriammahmed/CC_BeSTCentreMSAzure" target="_blank">
+    <div>
+      <div class="proj-title">Azure IoT-Cloud Architecture — Charité Berlin Simulation & Training Centre</div>
+      <div class="proj-sub">Microsoft Azure · IoT · Cloud Architecture · Healthcare</div>
+    </div>
+    <span class="proj-arr">↗</span>
+  </a>
+  <a class="proj-row" href="https://github.com/marriammahmed/CN_Client_Server_Spectator_TicTacToe" target="_blank">
+    <div>
+      <div class="proj-title">Client-Server-Spectator TicTacToe Game</div>
+      <div class="proj-sub">Computer Networks · Sockets · C / C++</div>
+    </div>
+    <span class="proj-arr">↗</span>
+  </a>
+  <a class="proj-row" href="https://github.com/marriammahmed/DB_PostgreSQL_RDMS_CyberMACS_Conference" target="_blank">
+    <div>
+      <div class="proj-title">Relational Database System — CyberMACS Conference</div>
+      <div class="proj-sub">PostgreSQL · ER Modeling · Normalization · SQL</div>
+    </div>
+    <span class="proj-arr">↗</span>
+  </a>
+  <a class="proj-row" href="https://github.com/marriammahmed/OS_FlutteriOSHabitTracker" target="_blank">
+    <div>
+      <div class="proj-title">Habit Tracker iOS Application</div>
+      <div class="proj-sub">Flutter · Dart · Mobile · Operating Systems</div>
+    </div>
+    <span class="proj-arr">↗</span>
+  </a>
+</section>
+
+<!-- SKILLS -->
+<section class="s s-alt" id="skills">
+  <div class="s-head">
+    <span class="s-num">03</span>
+    <h2>Skills</h2>
+  </div>
+  <div class="skills-grid">
+    <div class="skill-card">
+      <div class="skill-name">Programming</div>
+      <div class="skill-tools">C · C++ · Python · Bash / Shell<br/>Assembly · SQL · Flutter · R · MATLAB</div>
+    </div>
+    <div class="skill-card">
+      <div class="skill-name">Cybersecurity</div>
+      <div class="skill-tools">Penetration Testing · Wireshark · Nmap<br/>OSI / TCP-IP · VPNs · Firewalls<br/>Encryption · Signal Processing</div>
+    </div>
+    <div class="skill-card">
+      <div class="skill-name">Embedded & Hardware</div>
+      <div class="skill-tools">Microcontrollers · Sensor Integration<br/>8086 Assembly · Logic Design<br/>Buildroot · Real-Time Systems</div>
+    </div>
+    <div class="skill-card">
+      <div class="skill-name">Artificial Intelligence & Machine Learning</div>
+      <div class="skill-tools">TensorFlow · Scikit-Learn · Pandas · NumPy<br/>Neural Networks · Computer Vision<br/>LangChain · RAG Systems</div>
+    </div>
+    <div class="skill-card">
+      <div class="skill-name">DevOps & Cloud</div>
+      <div class="skill-tools">Docker · Git · Linux · Azure<br/>AWS · Google Cloud · Microservices<br/>Serverless · IaaS · PaaS</div>
+    </div>
+    <div class="skill-card">
+      <div class="skill-name">Data & Visualization</div>
+      <div class="skill-tools">Power BI · Tableau · D3.js<br/>PostgreSQL · ETL · ER Modeling<br/>Normalization · Query Optimization</div>
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section class="s" id="experience">
+  <div class="s-head">
+    <span class="s-num">04</span>
+    <h2>Experience</h2>
+  </div>
+  <div class="exp-list">
+
+    <div class="exp-item">
+      <div class="exp-meta">
+        <b>2026 – Present</b>
+        Berlin, Germany
+      </div>
+      <div class="exp-content">
+        <div class="exp-role">President & Founder</div>
+        <div class="exp-org">Google Developer Groups on Campus — GDGoC Berlin</div>
+        <ul class="exp-bullets">
+          <li>Founded and built the chapter from scratch — defined vision, structure, and event strategy</li>
+          <li>Collaborated with Google engineers and industry professionals on technical talks and workshops</li>
+          <li>Grew a technical community connecting students and faculty with industry mentors</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="exp-item">
+      <div class="exp-meta">
+        <b>2024 – 2025</b>
+        Berlin, Germany
+      </div>
+      <div class="exp-content">
+        <div class="exp-role">Software Developer</div>
+        <div class="exp-org">Freelance</div>
+        <ul class="exp-bullets">
+          <li>Applied DevOps principles and wrote clean, maintainable code across projects</li>
+          <li>Conducted software testing and performance optimization</li>
+          <li>Managed version control workflows using GitHub</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="exp-item">
+      <div class="exp-meta">
+        <b>2023 – 2024</b>
+        Sharjah, UAE
+      </div>
+      <div class="exp-content">
+        <div class="exp-role">IT Student Worker</div>
+        <div class="exp-org">AUS CAAD — American University of Sharjah</div>
+        <ul class="exp-bullets">
+          <li>Troubleshot classroom tech, software updates, hardware inventory, and release stations</li>
+          <li>Supported students, faculty, and staff with technical operations</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="exp-item">
+      <div class="exp-meta">
+        <b>2023 – 2024</b>
+        Sharjah, UAE
+      </div>
+      <div class="exp-content">
+        <div class="exp-role">Social Media Student Worker</div>
+        <div class="exp-org">OAAA — American University of Sharjah</div>
+        <ul class="exp-bullets">
+          <li>Grew accounts by 150% through data-driven content strategy and automation</li>
+          <li>Designed and managed digital content calendars; analyzed performance using analytical tools</li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- CERTIFICATIONS -->
+<section class="s s-alt">
+  <div class="s-head">
+    <span class="s-num">05</span>
+    <h2>Certifications</h2>
+  </div>
+  <div class="cert-grid">
+    <div class="cert-item">ISC2 CC — One Million Certified in Cybersecurity</div>
+    <div class="cert-item">Introduction to Penetration Testing — Codershq</div>
+    <div class="cert-item">CISCO Packet Tracer — CISCO Networking Academy</div>
+    <div class="cert-item">Hacker Masterclass: Linux for Beginners — SOC AUS</div>
+    <div class="cert-item">Microsoft Azure — VMs, Storage, Identity, Security, Networking</div>
+    <div class="cert-item">AWS — Machine Learning, Generative AI, Security, Cloud Operations, Storage, Scaling</div>
+    <div class="cert-item">Google Cloud — Load Balancing, Artificial Intelligence & Machine Learning, Fundamentals</div>
+    <div class="cert-item">Harvard CS50</div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="s" id="contact">
+  <div class="s-head">
+    <span class="s-num">06</span>
+    <h2>Contact</h2>
+  </div>
+  <div class="contact-grid">
+    <div class="contact-intro">
+      <p>
+        Open to <strong>internships, working student roles, and research positions</strong> —
+        especially in cybersecurity, embedded systems, or anything involving real hardware and hard problems.
+      </p>
+      <p>If you're building something interesting, let's talk.</p>
+    </div>
+    <div class="contact-links">
+      <a class="c-link" href="mailto:Mariam.hatem@gmail.com">
+        <div>
+          <div class="c-type">Email</div>
+          <div class="c-label">Mariam.hatem@gmail.com</div>
+        </div>
+        <span class="c-arr">→</span>
+      </a>
+      <a class="c-link" href="https://www.linkedin.com/in/mariam-a-175368282" target="_blank">
+        <div>
+          <div class="c-type">Professional Network</div>
+          <div class="c-label">LinkedIn</div>
+        </div>
+        <span class="c-arr">→</span>
+      </a>
+      <a class="c-link" href="https://github.com/marriammahmed" target="_blank">
+        <div>
+          <div class="c-type">All Projects</div>
+          <div class="c-label">GitHub</div>
+        </div>
+        <span class="c-arr">→</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>© 2025 <span>Mariam Ahmed</span> — Berlin</p>
+  <p>Always curious · Always improving</p>
+</footer>
+
+</body>
+</html>
