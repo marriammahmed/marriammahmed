@@ -42,7 +42,7 @@
 - <b>Computer Systems: Computer Archictecture 8086/8088 Intel Chip (+Hardware!)</b>
    [Low-Level Programming using assembly](https://github.com/marriammahmed/ICS_8086-8088IntelChip/tree/main)
 - <b>Digital systems (+Hardware!) </b>
-   [Hardware digital boards]()
+   [Hardware digital boards](https://github.com/marriammahmed/DigitalSystems/blob/main/README.md)
 - <b>Programming I & II labs </b>
   [Coding](https://github.com/marriammahmed/Programming1and2)
 
